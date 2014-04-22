@@ -27,6 +27,7 @@
 #import "MusicUnlimitedStrategy.h"
 #import "YandexMusicStrategy.h"
 #import "StitcherStrategy.h"
+#import "XiamiStrategy.h"
 
 NSArray * DefaultMediaStrategies;
 
@@ -119,7 +120,8 @@ NSArray * DefaultMediaStrategies;
                                   [[MixCloudStrategy alloc] init],
                                   [[MusicUnlimitedStrategy alloc] init],
                                   [[YandexMusicStrategy alloc] init],
-                                  [[StitcherStrategy alloc] init]
+                                  [[StitcherStrategy alloc] init],
+                                  [[XiamiStrategy alloc] init]
                                   ];
     }
     return DefaultMediaStrategies;
